@@ -1,4 +1,4 @@
-package com.appyvet.materialrangebar;
+package com.appyvet.rangebar;
 
 /**
  * Created by franciscomorais on 24/06/15.

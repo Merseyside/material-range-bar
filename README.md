@@ -108,7 +108,7 @@ Examples
 This is a rangebar with both a lower and upper value
 ```xml
 
-   <com.appyvet.materialrangebar.RangeBar
+   <com.appyvet.rangebar.RangeBar
         android:id="@+id/rangebar1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -149,7 +149,7 @@ This is a rangebar with both a lower and upper value
 This is a seekbar with only a single pin (note mrb_rangeBar=false)
 ```xml
 
-   <com.appyvet.materialrangebar.RangeBar
+   <com.appyvet.rangebar.RangeBar
         android:id="@+id/rangebar1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

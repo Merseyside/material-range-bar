@@ -20,7 +20,7 @@
         android:textColor="@color/white"
         android:textSize="40sp" />
 
-    <com.appyvet.materialrangebar.RangeBar
+    <com.appyvet.rangebar.RangeBar
         android:id="@+id/rangebar1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

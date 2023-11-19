@@ -11,7 +11,7 @@
  * governing permissions and limitations under the License.
  */
 
-package com.appyvet.materialrangebar;
+package com.appyvet.rangebar;
 /*
  * Copyright 2015, Appyvet, Inc.
  *
@@ -40,6 +40,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
+
+import com.appyvet.rangebar.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -1659,7 +1661,7 @@ public class RangeBar extends View {
     }
 
     /**
-     * Handles a {@link android.view.MotionEvent#ACTION_DOWN} event.
+     * Handles a {@link MotionEvent#ACTION_DOWN} event.
      *
      * @param x the x-coordinate of the down action
      * @param y the y-coordinate of the down action

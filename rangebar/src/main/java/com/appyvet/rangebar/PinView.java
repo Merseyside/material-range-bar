@@ -11,7 +11,7 @@
  * governing permissions and limitations under the License.
  */
 
-package com.appyvet.materialrangebar;
+package com.appyvet.rangebar;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -23,6 +23,9 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
 import android.util.TypedValue;
 import android.view.View;
+
+import com.appyvet.rangebar.R;
+import com.appyvet.rangebar.RangeBar;
 
 
 /**
@@ -105,7 +108,7 @@ class PinView extends View {
 
     // Initialization //////////////////////////////////////////////////////////
 
-    public void setFormatter(com.appyvet.materialrangebar.IRangeBarFormatter mFormatter) {
+    public void setFormatter(com.appyvet.rangebar.IRangeBarFormatter mFormatter) {
         this.formatter = mFormatter;
     }
 

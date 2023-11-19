@@ -11,7 +11,7 @@
  * governing permissions and limitations under the License.
  */
 
-package com.appyvet.materialrangebar;
+package com.appyvet.rangebar;
 
 import android.view.View;
 
@@ -52,7 +52,7 @@ public enum MeasureSpecMode {
      * measureSpec int value.
      *
      * @param measureSpec the measure specification passed by the platform to
-     *                    {@link android.view.View#onMeasure(int, int)}
+     *                    {@link View#onMeasure(int, int)}
      * @return the MeasureSpecMode that matches with that measure spec
      */
     public static MeasureSpecMode getMode(int measureSpec) {

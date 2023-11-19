@@ -11,12 +11,14 @@
  * governing permissions and limitations under the License.
  */
 
-package com.appyvet.materialrangebar;
+package com.appyvet.rangebar;
 
 import android.graphics.Canvas;
 import android.graphics.LinearGradient;
 import android.graphics.Paint;
 import android.graphics.Shader;
+
+import com.appyvet.rangebar.PinView;
 
 import java.util.ArrayList;
 import java.util.List;
