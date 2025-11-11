@@ -15,7 +15,7 @@ dependencyResolutionManagement {
     }
 
     val group = "io.github.merseyside"
-    val catalogVersions = "1.7.9"
+    val catalogVersions = "1.8.5"
 
     versionCatalogs {
         val androidLibs by creating {

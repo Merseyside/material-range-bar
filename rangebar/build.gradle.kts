@@ -10,10 +10,7 @@ plugins {
 
 android {
     namespace = "com.appyvet.rangebar"
-    compileSdk = 34
-    defaultConfig {
-        minSdk = 23
-    }
+    compileSdk = androidLibs.versions.compileSdk.get().toInt()
 
     buildTypes {
         getByName("debug") {

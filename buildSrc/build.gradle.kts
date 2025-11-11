@@ -4,7 +4,7 @@ plugins {
 
 dependencies {
     with(catalogGradle) {
-        implementation(android.gradle.stable)
+        implementation(android.gradle)
         implementation(kotlin.gradle)
         implementation(mersey.gradlePlugins)
         implementation(maven.publish.plugin)
